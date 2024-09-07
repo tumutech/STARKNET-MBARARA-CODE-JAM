@@ -1,0 +1,23 @@
+{
+    "name": "counter-workshop",
+    "private": "true",
+    "scripts": {
+        "deploy": "ts-node scripts/deploy.ts"
+    },
+    "dependencies": {
+        "@starknet-react/chains": "^0.1.7",
+        "@starknet-react/core": "^2.9.0",
+        "@tailwindcss/forms": "^0.5.8",
+        "@tsconfig/node21": "21.0.1",
+        "dotenv": "16.4.1",
+        "starknet": "^6.7.0",
+        "ts-node": "10.9.2",
+        "tslib": "^2.6.2",
+        "typescript": "5.3.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.45",
+        "tailwindcss": "^3.4.10"
+    }
+}

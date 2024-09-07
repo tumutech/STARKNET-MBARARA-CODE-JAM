@@ -1,0 +1,56 @@
+[
+  {
+    "type": "impl",
+    "name": "ICounterImpl",
+    "interface_name": "counter::counter::ICounter"
+  },
+  {
+    "type": "struct",
+    "name": "core::integer::u256",
+    "members": [
+      {
+        "name": "low",
+        "type": "core::integer::u128"
+      },
+      {
+        "name": "high",
+        "type": "core::integer::u128"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "counter::counter::ICounter",
+    "items": [
+      {
+        "type": "function",
+        "name": "get",
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "core::integer::u256"
+          }
+        ],
+        "state_mutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "set",
+        "inputs": [
+          {
+            "name": "x",
+            "type": "core::integer::u256"
+          }
+        ],
+        "outputs": [],
+        "state_mutability": "external"
+      }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "counter::counter::Counter::Event",
+    "kind": "enum",
+    "variants": []
+  }
+]
